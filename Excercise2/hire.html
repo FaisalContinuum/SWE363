@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="My first website">
+    <meta name="keywords" content="HTML, Revachol">
+    <meta name="author" content="Faisal Alharthi">
+    <title>Excercise 2</title>
+</head>
+
+<body> 
+<header>
+    <h1>Hire me!</h1>
+    <form action="confirmation.html" method="get">
+
+        <label for="firstName">First Name:</label>
+        <input name="firstName" id="firstName" type="text" autocomplete="first-Name" placeholder="First Name" />
+
+        <label for="lastName">Last Name:</label>
+        <input name="lastName" id="lastName" type="text" autocomplete="last-Name" placeholder="Last Name"/>
+        <br>
+
+        <label for="URL">Enter your website:</label>
+        <label><input type="url" name="URL" autocomplete="url" placeholder="URL"></label>        
+        <br>
+
+        <label for="Positions">Your preferred position: </label>
+        <label><input list="Positions" name="Positions" placeholder="Position"></label>
+
+        <datalist id="Positions">
+            <option value="Software Engineer"></option>
+            <option value="Computer Scientist"></option>
+            <option value="Mathematician"></option>
+            <option value="Physicist"></option>
+        </datalist>
+        <br>
+
+        <label for="cvFile">Attach CV:</label>
+        <label><input type="file" name="cvFile"></label>
+        <br>
+
+        <label for="radio">Are you comfortable with working online?</label>
+        <label><input type="radio" name="radio" value="Yes">Yes</label>
+        <label><input type="radio" name="radio" value="No">No</label>
+        <br>
+
+        <label for="Submit">Submit application</label>
+        <label><input type="submit" value="Submit" name="Submit" action="confirmation.html"/></label>
+    </form>
+</header>
+
+    <footer>
+        <small>
+        <a href="home.html">Home</a>,
+        <a href="contact.html">Contact us</a>,
+        <a href="index.html">Details</a><br>
+        <a href="https://github.com/hammadojh/Web-Dev-Course/tree/main">Our Website</a><br>
+        <a href="tel:+966555555555">+966 555 55 5555</a><br>
+        &copy; Page is under copy right of SWE363
+        </small>
+    </footer>
+</body>
+</html>
